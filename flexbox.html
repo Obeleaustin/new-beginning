@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        #flex-container-1 > div{
+            background-color:  #f1f1f1;
+            margin: 10px;
+            padding: 10px;
+        }
+        #flex-container-1{
+            display:  flex;
+            background-color: dodgerblue;
+        }
+        #flex-container-2 > div{
+            background-color:  #f1f1f1;
+            width: 100px;
+            text-align: center;
+            line-height: 75px;
+            margin: 10px;
+        }
+        #flex-container-2{
+            display:  flex;
+            flex-direction: column;
+            background-color: dodgerblue;
+        }
+        #flex-container-3 > div{
+            background-color:  #ccadad;
+            width: 100px;
+            text-align: center;
+            line-height: 75px;
+            margin: 10px;
+        }
+        #flex-container-3{
+            display:  flex;
+            flex-direction: column-reverse;
+            background-color: rgb(49, 255, 30);
+        }
+        #flex-container-4 > div{
+            background-color:  #f1f1f1;
+            width: 100px;
+            text-align: center;
+            line-height: 75px;
+            margin: 10px;
+        }
+        #flex-container-4{
+            display:  flex;
+            flex-direction: row;
+            background-color: rgb(255, 30, 30);
+        }
+        #flex-container-5 > div{
+            background-color:  #f1f1f1;
+            width: 100px;
+            text-align: center;
+            line-height: 75px;
+            margin: 10px;
+        }
+        #flex-container-5{
+            display:  flex;
+            flex-direction: row-reverse;
+            background-color: rgb(255, 30, 30);
+        }
+        #flex-container-wrap{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: blue;
+        }
+        #flex-container-wrap > div{
+            background-color: orange;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+        }
+        #flex-container-wrap-1{
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: blue;
+        }
+        #flex-container-wrap-1 > div{
+            background-color: orange;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+        }
+        #flex-container-wrap-2{
+            display: flex;
+            flex-wrap: wrap-reverse;
+            background-color: blue;
+        }
+        #flex-container-wrap-2 > div{
+            background-color: orange;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+        }
+        #flex-container-wrap3{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: blue;
+        }
+        #flex-container-wrap3 > div{
+            background-color: orange;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+        }
+        #flex-container-6 > div{
+            background-color:  #f1f1f1;
+            margin: 10px;
+            padding: 10px;
+        }
+        #flex-container-6{
+            display:  flex;
+            justify-content: center;
+            background-color: dodgerblue;
+        }
+        #flex-container-7{
+            display: flex;
+            height: 200px;
+            flex-wrap: wrap;
+            align-content: space-around;
+            background-color: yellow;
+        }
+        #flex-container-7 > div{
+            background-color: pink;
+            width:  100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="flex-container-1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+<br>
+    <div id="flex-container-2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <div id="flex-container-3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <div id="flex-container-4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <div id="flex-container-5">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <div id="flex-container-wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+     <br>
+    <div id="flex-container-wrap-1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <br>
+    <div id="flex-container-wrap-2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <br>
+    <div id="flex-container-wrap3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <br>
+    <div id="flex-container-6">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <div id="flex-container-7">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+</body>
+</html>

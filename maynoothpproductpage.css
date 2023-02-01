@@ -1,0 +1,610 @@
+main{
+    margin-bottom: 30px;
+}
+*{
+    box-sizing: border-box
+}
+#form1i{
+    position: relative;
+}
+input[type=text]{
+    position: absolute;
+    left: -11%;
+}
+input[type=text]:hover{
+    width: 120%;
+}
+/* #id1 #id1-1 img{
+    float: left;
+    width: 60%;
+    border-radius: 100px;
+} */
+/* #id1-2{
+    color: white;
+    border: 2px solid red;
+    background-color: red;
+    margin-left: 230px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 19%;
+    width: 60px;
+    height: 54px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    animation-name: id1-2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+} */
+/* @keyframes id1-2{
+    0%{background-color: blue;}
+    30%{background-color: gold;}
+    60%{background-color: black;}
+} */
+.idcollection{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#collection{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+#collection1{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 17px;
+}
+#id1{
+    content: "";
+    display: table;
+    clear: both;
+    background-color: rgb(49, 59, 69);
+    margin-top: -1px;
+    padding-bottom: 10px;
+}
+.img1{
+    grid-area: img1;
+    margin-top: 90%;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+    margin-top: 50%;
+}
+#id2{
+    display: grid;
+    grid-template-areas: 'img1 img2 img2 img3';
+    margin-left: -10px;
+}
+ #id2 img{
+    width: 100%;
+}
+#id2 p b{
+    text-align: center;
+    margin-top: -50px;
+    align-items: center;
+    margin-left: 50%;
+}
+.id1-1{
+    grid-area: id2-1;
+} 
+.id2-2{
+    grid-area: id2-2;
+}
+.id2-3{
+    grid-area: id2-3;
+}
+ .id2{
+    display: grid;
+    grid-template-columns: 'id2-1 id2-2 id2-2 id2-3';
+}
+#prices{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 8%;
+    margin-top: -30px;
+    margin-left: 3%;
+    /* align-items: center; */
+}
+#prices div{
+    display: inline;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    padding: 2px;
+    border-radius: 25%;
+}
+.d1{
+    color: #ffc107;
+}
+.d2{
+    color: #ff0707;
+}
+#btext{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+} 
+    /*.id2{
+    text-align: center;
+    font-size: 13px;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+.id2 div{
+    align-items: center;
+    text-align: center;69+3
+    +
+    border: 2px solid black;
+    width: 50%;
+    height: 40%;
+    margin-top: 22%;
+    padding: 0 25px 0 25px;
+    border-radius: 40%;
+
+} */
+
+#popular{
+    font-size: 21px;
+}
+#popular1{
+    font-size: 12px;
+    margin-top: -16px;
+    margin-bottom: 30px;
+}
+/* #inner-nav{
+    padding: 5px;
+    margin-left: -12%;
+    margin-top: 10px;
+}
+#inner-nav ul li{
+    display: inline;
+    background-color: #ccc;
+    border-radius: 30%;
+    text-align: center;
+    padding: 0 1.8px 0 1.8px;
+}
+#inner-nav ul li a{
+    color:rgb(49, 59, 69);
+}
+#unordered-list1{
+    text-align: center;
+}
+.all-fur{
+    background-color: rgb(49, 59, 69) !important;
+}
+.all-fur a{
+    color: rgb(243, 181, 66) !important;
+}
+#inner-nav ul li a:hover{
+    background-color: rgb(49, 59, 69);
+    color: rgb(243, 181, 66);
+    border-radius: 30%;
+} */
+#nav{
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    align-content: center;
+    border: none;
+    outline: none;
+    padding: 5px 20px 5px 20px;
+    font-size: 14px;
+    color: rgb(243, 181, 66);
+    background-color: rgb(49, 59, 69);
+}
+#nav option{
+    padding-left: 20px;
+    font-weight: 100;
+    width: 200%;
+}
+#id3 div img{
+    width: 100%;
+    margin-top: 20%;
+}
+#id3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#id3-1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#id3-1 ul li{
+    display: inline;
+    padding-right: 30px;
+}
+#id3-2 p{
+    padding-left: 30px;
+}
+#id3-2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#id3-2 ul li{
+    display: inline;
+    padding-left: 30px;
+}
+#sector{
+    background-color: black;
+    color: white;
+}
+#our{
+    text-align: center;
+    margin-bottom: -0.01%;
+}
+#sector div p{
+    font-size: 10.5px;
+
+}
+.sevice-review{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.sevice-review div img{
+    width: 30%;
+    border-radius: 30%;
+    float: left;
+}
+.sevice-review div p{
+    margin-bottom: -4%;
+    margin-left: 50px;
+}
+#review-name{
+    position: absolute;
+    left: 3%;
+    top: 273%;
+}
+#review-display img{
+    margin-top: 20px;
+    width: 100%;
+}
+#sector{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#join-us-text{
+    text-align: center;
+}
+form{
+    margin-left: 10%;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+input[type="email"]{
+    width: 90%;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 25px 25px 25px 25px ;
+}
+[type="submit"]{
+    position: relative;
+    border-radius: 25px 25px 25px 25px;
+    width: 28%;
+    border: none;
+    outline: none;
+    background-color: #ffc107;
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: -30%;
+}
+#gallery{
+    margin-top: 15%;
+}
+#gallery-image{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#gallery-image img{
+    width: 80%;
+    height: 120%;
+    border-radius: 25px;
+    margin-left: 10%;
+}
+#image2{
+    margin-top: 5px;
+}
+#image5{
+    position: absolute;
+    width: 20%;
+    height: 8%;
+    right: 2.4%;
+    top: 331%;
+    opacity: 0.6;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 701px ) {
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+    /* html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }*/
+    HTML5 display-role reset for older browsers 
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    } 
+    body {
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+    }
+     ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }  
+    header{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(49, 59, 69);
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+    }
+    #maynoothlogo{
+        width: 230px;
+    }
+    #maynooth{
+        color: rgb(243, 181, 66);
+        font-family:'audiowide', sans-serif;
+        font-size: 120%;
+        font-weight: bolder;
+        margin-top: -10%;
+        margin-left: 22%;
+        text-shadow: 2px 2px black;
+    }
+    .maynooth{
+        margin-left: 22%;
+        font-size: 110%;
+        font-weight: bolder;
+        color: rgb(243, 181, 66);
+        text-shadow: 2px 2px black;
+        padding-bottom: -1%;
+    }
+    #icon0{
+        font-size: 160%;
+        color: white;
+        float: right;
+        margin-right: 25px;
+        margin-top: -110px;
+    }
+    input[type=text]{
+        width: 45%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 1px !important;
+        font-size: 25px;
+        background-color: white;
+        background-image: url(./icon/search-icon.png);
+        background-size: 25px;
+        background-position: 0px ;
+        margin-top: -1%;
+        background-repeat: no-repeat;
+        padding: 3px 4px 4px 22px;
+        transition: width 2s ease-in-out;
+        position: absolute;
+        left: 54%;
+        z-index: 1;
+    }
+
+    .dropdown1{
+        margin: 0;
+        margin-left: -1%;
+        display: inline;
+        margin-top: -90%;
+        margin-left: -48px;
+
+    }
+    #navbar{
+        display: none;
+        visibility: none;
+    }
+    .dropdown-content1{
+        display: inline;
+        background-color: rgba(23, 45, 56, 0);
+        margin-top: -9%;
+        margin-right: 8%;
+
+    }
+    .dropdown-content1 li{
+        display: inline-block;
+        margin-left: -16%;
+        padding: 30px;
+    }
+    #home{
+        margin-left: -160%;
+    }
+    .dropdown-content li a{
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: -5%;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        left: 0%;
+        top: 72%;
+        min-width: 110%;
+        z-index: -1;
+    }
+        .button:hover{
+            display: block;
+            padding: 10px 40px 10px 1px;
+        }
+        #popular{
+            font-size: 47px;
+        }
+        #popular1{
+            font-size: 32px;
+            margin-top: -16px;
+            margin-bottom: 30px;
+        }
+        #nav{
+            margin-left: 30%;
+            width: 40%;
+            text-align: center;
+            align-content: center;
+            border: none;
+            outline: none;
+            padding: 5px 20px 5px 20px;
+            font-size: 30px;
+            color: rgb(243, 181, 66);
+            background-color: rgb(49, 59, 69);
+        }
+        #nav option{
+            font-size: 25px;
+            padding-left: 20px;
+            font-weight: 100;
+            width: 200%;
+        }
+        #id3 div img{
+            width: 100%;
+            margin-top: 20%;
+        }
+        #id3{
+            display: grid;
+            grid-template-columns: auto 35% auto;
+        }
+        #id3-1 ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        #id3-1 ul li{
+            display: inline;
+            padding-right: 10px;
+        }
+        #id3-2 p{
+            padding-left: 1px;
+        }
+        #id3-2 ul{
+            list-style-type: none;
+            margin-top: 14%;
+            padding: 0;
+        }
+        #id3-2 ul li{
+            display: inline;
+            padding-left: 1px;
+        }
+        #garden{
+            margin-top: 35%;
+        }
+        #bench{
+            margin-top: -20%;
+            margin-right: 20%;
+
+        }
+        #bench img{
+            width: 40%;
+            margin-top: -20%;
+        }
+        #fit{
+            margin-right: -20%;
+        }
+        form{
+            margin-left: 10%;
+        }
+        input{
+            position: relative;
+            display: inline-block;
+            font-size: 28px;
+            box-sizing: border-box;
+        }
+        input[type="email"]{
+            width: 90%;
+            height: 70px;
+            background-color: #fff;
+            border: none;
+            outline: none;
+            padding: 0 20px;
+            border-radius: 25px 25px 25px 25px ;
+        }
+        [type="submit"]{
+            position: relative;
+            border-radius: 25px 25px 25px 25px;
+            width: 28%;
+            height: 60px;
+            border: none;
+            outline: none;
+            background-color: #ffc107;
+            color: #fff;
+            font-family: sans-serif;
+            font-size: 28px;
+            margin-left: -30%;
+        }
+        #sector div p{
+            font-size: 30px;
+        
+        }
+        #review-name{
+            position: absolute;
+            left: 12%;
+            top: 223%;
+        }
+        #image5{
+            position: absolute;
+            width: 20%;
+            height: 11%;
+            right: 2.4%;
+            top: 291%;
+            opacity: 0.6;
+            border-radius: 25px;
+        }
+        #main-footer section{
+            display: grid;
+            grid-template-columns: 40% auto;
+            gap: 10%;
+            justify-content: center;
+    
+        }
+        #main-footer section div ul li{
+            color: rgb(243, 181,66);
+            display: flex; 
+            min-width: 30%;
+            justify-content: center;
+        }
+    }
